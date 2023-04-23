@@ -1,11 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import  { HolaMundo }  from './componente/HolaMundo.jsx'
+import { HolaMundoApp } from './HolaMundoApp'
+//import  { HolaMundo }  from './componente/HolaMundo.jsx'
+
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
  <React.StrictMode>
- <HolaMundo usuario={{nombre:'damian', apellido:'adamo'}} id={1} />
+ <HolaMundoApp usuario={{nombre:'damian', apellido:'adamo'}} 
+ id={2} titulo={'hola Mundo'} />
   </React.StrictMode>,
  
 )
